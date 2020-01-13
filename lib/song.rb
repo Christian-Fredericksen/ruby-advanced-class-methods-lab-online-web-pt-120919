@@ -53,17 +53,7 @@ class Song
   end
   
   def self.new_from_filename(new_music)
-   
-    # takes in a string as an arguement.
-    # that string must be reduced to two key strings. The first string contains the artist's name and the second string contains the song's name. All subsequent strings can be disregarded.
-    # the artist's name and the song's name are passed as arguements in the self.create class method.
-    # this method then initializes a Song object.
-    
-     song_parts = new_music.split(/[\-\.]/)   #{|nm| @@all << self.create}
-    binding.pry
-    artist_name = song_parts[0]
-    name = song_parts[1]
-    self.create
+   song = new_music
     
   end 
     
