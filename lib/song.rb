@@ -60,7 +60,7 @@ class Song
     # this method then initializes a Song object.
     
      song_parts = new_music.split(/[\-\.]/)   #{|nm| @@all << self.create}
-    #binding.pry
+    binding.pry
     artist_name = song_parts[0]
     name = song_parts[1]
     self.create
