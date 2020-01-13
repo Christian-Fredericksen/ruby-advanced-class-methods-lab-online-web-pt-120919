@@ -58,6 +58,8 @@ class Song
    song.artist_name = (new_music.split(" - ")[0])
    song
   end 
+  
+  
     
   
 end
