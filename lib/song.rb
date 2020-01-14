@@ -65,6 +65,10 @@ class Song
    song.artist_name = (new_music.split(" - ")[0])
    @@all << self
   end 
+  
+  def self.destroy_all
+    self.all.clear
+  end
     
   
 end
